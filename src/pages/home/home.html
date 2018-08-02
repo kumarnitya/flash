@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Flash
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="bg">
+      <button full margin-top ion-button (click)="toggle()">Switch {{isSwitchedOn ? 'Off' : 'On' }} Flash</button>
+      <button full margin-top ion-button (click)="offClose()">{{isSwitchedOn ? 'Switch Off Flash and' : '' }} Close Application</button>
+</ion-content>
